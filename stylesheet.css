@@ -1,0 +1,82 @@
+@import url(https://fonts.google.com/specimen/Source+Serif+Pro);
+
+body {
+    font-family: 'Source Serif Pro',sans-serif;
+}
+
+#dynamic-swatch {
+    float: left;
+    border: 1px solid black;
+}
+
+.dyncolor {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-color: rgb(0,0,0);
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+.sliders {
+    background-color: white;
+    text-align:center;
+    padding-top: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+output {
+    display: inline-block;
+    min-width: 2.5em;
+}
+
+label, output {
+    padding: 2px 9px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1.1em;
+}
+
+    label[for=r], output[for=r] {
+        background-color: #f00;
+    }
+
+    label[for=g], output[for=g] {
+        background-color: #0f0;
+    }
+
+    label[for=b], output[for=b] {
+        background-color: #00f;
+    }
+
+#hex {
+    min-width: 4.5em;
+    font-size: 3em;
+    background: rgba(255,255,255,.3);
+}
+
+.static-swatch {
+    height: 100px;
+    width: 8%;
+    float: left;
+    margin: .16%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.static-swatch h2{
+    color: black;
+    background-color: rgba(255,255,255,.5);
+    font-size:1.5em
+}
+
+.static-swatch p {
+    color:black;
+    font-size: 1em;
+}
