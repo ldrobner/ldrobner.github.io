@@ -1,0 +1,116 @@
+@import url(https://fonts.google.com/specimen/Source+Serif+Pro);
+
+html {
+    height: 100%
+}
+
+body {
+	font-family: 'Source Serif Pro';
+	width: 100%;
+	height: 100%;
+    overflow:hidden;
+}
+
+#topbar {
+	width: 100%;
+	height: 75px;
+	background-color: #3c3c3c;
+}
+
+#topbar #logo {
+	margin: 10px 0px 5px 10px
+}
+
+#topbar #searchbar {
+	float: right;
+	height: 35px;
+	width: 200px;
+	margin: 20px 25px 20px 0px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,.2) 0px 2.5px 2.5px;
+}
+
+#sidebar {
+    float: left;
+	width: 15%;
+	height: 100%;
+	background-color: lightgray;
+	box-shadow: rgba(0,0,0,.2) 2.5px 0px 2.5px;
+	z-index:-1;
+}
+
+#sidebar #button {
+	width: 90%;
+	height: 50px;
+    margin: 15px 0px 10px 5%;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 1.5vw;
+}
+
+#sidebar #sidebarlist {
+	width: 200px;
+	list-style: none;
+}
+
+#sidebarlist button {
+	background: none;
+	border: none;
+	font-size: 1.5vw;
+	font-weight: 500;
+}
+
+
+#list {
+    float:left;
+    height:100%;
+    width: 85%;
+}
+
+.swatch {
+    float: left;
+    margin: 1% 2% 1% 2%;
+    width: 20%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.swatchid {
+    text-align:left;
+    color: black;
+    padding-left: 5%;
+    border-top: 1px solid black;
+}
+
+.swatchid h2 {
+    font-size: 2vw;
+}
+
+.swatchcolor {
+    height: 85%;
+    width: 100%;
+    border-top-left-radius:inherit;
+    border-top-right-radius:inherit;
+}
+
+#pageNumbers {
+    list-style: none;
+    float:left;
+    width: 33.33%;
+    margin-right: 33.33%;
+    margin-left: 33.33%;
+}
+
+#pageNumbers li {
+    display: inline;
+}
+
+.pageButton {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+}

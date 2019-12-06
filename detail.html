@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>List View color swatches</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="detailstyle.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+</head>
+
+<body>
+    <div id="topbar">
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTJweCIgaGVpZ2h0PSI1MnB4IiB2aWV3Qm94PSIwIDAgNTIgNTIiIHZlcnNp%0D%0Ab249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0i%0D%0AaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgPGcgZmlsbD0iI2ZmZiI+CiAgICAgIDxw%0D%0AYXRoIGQ9Ik0yNi4yMTYsMS44OTUgQzEyLjgwNiwxLjg5NSAxLjg5NiwxMi44MDUgMS44OTYsMjYu%0D%0AMjE1IEMxLjg5NiwzOS42MjYgMTIuODA2LDUwLjUzNiAyNi4yMTYsNTAuNTM2IEMzOS42MjYsNTAu%0D%0ANTM2IDUwLjUzNiwzOS42MjYgNTAuNTM2LDI2LjIxNSBDNTAuNTM2LDEyLjgwNSAzOS42MjYsMS44%0D%0AOTUgMjYuMjE2LDEuODk1IE0yNi4yMTYsNTIuNDMxIEMxMS43Niw1Mi40MzEgMCw0MC42NyAwLDI2%0D%0ALjIxNSBDMCwxMS43NiAxMS43NiwwIDI2LjIxNiwwIEM0MC42NzEsMCA1Mi40MzEsMTEuNzYgNTIu%0D%0ANDMxLDI2LjIxNSBDNTIuNDMxLDQwLjY3IDQwLjY3MSw1Mi40MzEgMjYuMjE2LDUyLjQzMSIgaWQ9%0D%0AIkZpbGwtMyI+PC9wYXRoPgogICAgICA8cGF0aCBkPSJNMjYuNTU4LDI2LjAwMiBDMzEuNTgsMjQu%0D%0AMzM1IDM1LjkxOCwyMi44OTUgMzUuOTE4LDE1LjA0MiBMMzUuOTE4LDE0LjYzIEwzNS45MTgsMTQu%0D%0AMTczIEwzNS45MTgsMTMgTDMzLjg4OSwxMyBMMzMuODg5LDE1LjA0MiBDMzMuODg5LDIxLjQzMSAz%0D%0AMC43MTgsMjIuNDgzIDI1LjkxOCwyNC4wNzcgQzI0LjE3MywyNC42NTYgMjIuMjA3LDI1LjMxOSAy%0D%0AMC4zOCwyNi4zNjUgTDIwLjM4LDEzIEwxOC4zNTEsMTMgTDE4LjM1MSwyNy43NzIgQzE3LjQ4MSwy%0D%0AOC41MDMgMTYuNjkzLDI5LjM4MSAxNi4wMjksMzAuNDQxIEwxNi4wMjksMTMgTDE0LDEzIEwxNCwz%0D%0AOC41NjUgTDE0LDQwLjYwNyBMMTYuMDI5LDQwLjYwNyBMMTYuMDI5LDM5LjQzNSBMMTYuMDI5LDM4%0D%0ALjU2NSBDMTYuMDI5LDI5LjQ5NyAyMS42MjIsMjcuNjQgMjYuNTU4LDI2LjAwMiIgaWQ9IkZpbGwt%0D%0ANiI+PC9wYXRoPgogICAgICA8cGF0aCBkPSJNMzcuODksMTMgTDM3Ljg5LDEzLjI2NiBMMzcuODks%0D%0AMTQuMTczIEwzNy44OSwxNC42MyBMMzcuODksMTUuMDQyIEMzNy44OSwyNC4xNSAzMi4yODUsMjYu%0D%0AMDExIDI3LjMzOCwyNy42NTIgQzIyLjMyNywyOS4zMTUgMTgsMzAuNzUxIDE4LDM4LjU2NSBMMTgs%0D%0AMzkuNDM1IEwxOCw0MC42MDcgTDIwLjAzLDQwLjYwNyBMMjAuMDMsMzguNTY1IEMyMC4wMywzMi4y%0D%0AMTYgMjMuMTkxLDMxLjE2NyAyNy45NzcsMjkuNTc4IEMyOS43MywyOC45OTYgMzEuNzA0LDI4LjMz%0D%0AMSAzMy41MzgsMjcuMjc3IEwzMy41MzgsNDAuNjA3IEwzNS41NjgsNDAuNjA3IEwzNS41NjgsMjUu%0D%0AODY3IEMzNi40MzksMjUuMTMzIDM3LjIyNywyNC4yNTIgMzcuODksMjMuMTg5IEwzNy44OSw0MC42%0D%0AMDcgTDM5LjkxOSw0MC42MDcgTDM5LjkxOSwxNS4wNDIgTDM5LjkxOSwxMy4yNjYgTDM5LjkxOSwx%0D%0AMyBMMzcuODksMTMgWiIgaWQ9IkZpbGwtOCI+PC9wYXRoPgogIDwvZz4KPC9zdmc+Cg==" id="logo">
+        <input type="text" placeholder="Search" id="searchbar">
+    </div>
+
+
+    <div id="sidebar">
+        <button id="randombutton">random color</button>
+
+        <ul id="sidebarlist">
+            <li><button id="redbutton">red</button></li>
+            <li><button id="orangebutton">orange</button></li>
+            <li><button id="yellowbutton">yellow</button></li>
+            <li><button id="greenbutton">green</button></li>
+            <li><button id="bluebutton">blue</button></li>
+            <li><button id="purplebutton">purple</button></li>
+            <li><button id="brownbutton">brown</button></li>
+            <li><button id="graybutton">gray</button></li>
+        </ul>
+
+        <button id="backbutton"><a href="list.html">back to list</a></button>
+    </div>
+
+    <div id="list">
+        <div id="swatch">
+            <div id="swatchonecolor" class="swatchcolor"></div>
+            <div class="swatchid">
+                <h2 id="swatchoneid"></h2>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="detailapp.js"></script>
+
+</body>
+
+
+</html>
