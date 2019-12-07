@@ -63,21 +63,6 @@ body {
     font-weight: 500;
 }
 
-#sidebar #backbutton {
-    width: 90%;
-    height: 50px;
-    margin: 15px 0px 10px 5%;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 1.5vw;
-}
-
-#sidebar #backbutton a {
-    color: black;
-    text-decoration: none;
-}
-
 
 #list {
     float: left;
@@ -90,20 +75,19 @@ body {
     margin: 5% 5% 40% 10%;
     width: 80%;
     height: 65%;
-    border: 1px solid black;
     border-radius: 5px;
     background-color: white;
+    border: 1px solid black;
 }
 
 .swatchid {
     text-align: left;
     color: black;
     padding-left: 5%;
-    border-top: 1px solid black;
 }
 
-.swatchid h2 {
-    font-size: 2vw;
+#swatchoneid {
+    margin-top: 2.5%;
 }
 
 .swatchcolor {
@@ -111,4 +95,15 @@ body {
     width: 100%;
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
+}
+
+#backbutton {
+    width: 15%;
+    height: 50px;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5vw;
 }

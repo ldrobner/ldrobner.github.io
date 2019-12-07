@@ -41,13 +41,14 @@ body {
 }
 
 #sidebar #button {
-	width: 90%;
-	height: 50px;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 50px;
     margin: 15px 0px 10px 5%;
-	border: 1px solid black;
-	border-radius: 10px;
-	font-weight: bold;
-	font-size: 1.5vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5vw;
 }
 
 #sidebar #sidebarlist {
@@ -74,16 +75,15 @@ body {
     margin: 1% 2% 1% 2%;
     width: 20%;
     height: 25%;
-    border: 1px solid black;
     border-radius: 5px;
     background-color: white;
+    box-shadow: rgba(0,0,0,.3) 0px 0px 5px;
 }
 
 .swatchid {
     text-align:left;
     color: black;
     padding-left: 5%;
-    border-top: 1px solid black;
 }
 
 .swatchid h2 {
