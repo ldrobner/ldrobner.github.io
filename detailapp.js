@@ -20,7 +20,7 @@ function pad(n) {
 
 //document objects
     //swatch
-var swatchonecolor = document.querySelector('#swatchonecolor'),
+var swatchonecolor = document.querySelector('.swatchcolor'),
     swatchoneid = document.querySelector('#swatchoneid');
 
     //buttons
