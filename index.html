@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Helpful Human Exercise</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+
+    <div id="dynamic-swatch">
+        <div class="dyncolor">
+            <output id="hex">#000000</output>
+        </div>
+
+        <div class="sliders">
+            <fieldset>
+                <label for="r">R</label>
+                <input type="range" min="0" max="255" id="r" step="1" value="0">
+                <output for="r" id="r_out">0</output>
+            </fieldset>
+
+            <fieldset>
+                <label for="g">G</label>
+                <input type="range" min="0" max="255" id="g" step="1" value="0">
+                <output for="g" id="g_out">0</output>
+            </fieldset>
+
+            <fieldset>
+                <label for="b">B</label>
+                <input type="range" min="0" max="255" id="b" step="1" value="0">
+                <output for="b" id="b_out">0</output>
+            </fieldset>
+        </div>
+    </div>
+
+    <button class="static-swatch" id="createButton">
+        <p>Create New Color</p>
+    </button>
+    
+
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
